@@ -111,10 +111,10 @@ const Index = () => {
             </div>
             
             <nav className="hidden md:flex items-center space-x-6">
-              <a href="#" className="text-sm font-medium hover:text-primary transition-colors">
+              <a href="/stays" className="text-sm font-medium hover:text-primary transition-colors">
                 Stays
               </a>
-              <a href="#" className="text-sm font-medium hover:text-primary transition-colors">
+              <a href="/experiences" className="text-sm font-medium hover:text-primary transition-colors">
                 Experiences
               </a>
               {user && (
